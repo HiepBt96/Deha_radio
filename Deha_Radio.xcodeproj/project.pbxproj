@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361EA40B22686FF400450573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361EA40A22686FF400450573 /* AppDelegate.swift */; };
+		361EA40D22686FF400450573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361EA40C22686FF400450573 /* ViewController.swift */; };
+		361EA41022686FF400450573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361EA40E22686FF400450573 /* Main.storyboard */; };
+		361EA41322686FF400450573 /* Deha_Radio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 361EA41122686FF400450573 /* Deha_Radio.xcdatamodeld */; };
+		361EA41522686FF600450573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361EA41422686FF600450573 /* Assets.xcassets */; };
+		361EA41822686FF600450573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361EA41622686FF600450573 /* LaunchScreen.storyboard */; };
+		361EA42322686FF600450573 /* Deha_RadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361EA42222686FF600450573 /* Deha_RadioTests.swift */; };
+		361EA42E22686FF600450573 /* Deha_RadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361EA42D22686FF600450573 /* Deha_RadioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		361EA41F22686FF600450573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361EA3FF22686FF400450573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361EA40622686FF400450573;
+			remoteInfo = Deha_Radio;
+		};
+		361EA42A22686FF600450573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361EA3FF22686FF400450573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361EA40622686FF400450573;
+			remoteInfo = Deha_Radio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361EA40722686FF400450573 /* Deha_Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deha_Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361EA40A22686FF400450573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		361EA40C22686FF400450573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		361EA40F22686FF400450573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		361EA41222686FF400450573 /* Deha_Radio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Deha_Radio.xcdatamodel; sourceTree = "<group>"; };
+		361EA41422686FF600450573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361EA41722686FF600450573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		361EA41922686FF600450573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361EA41E22686FF600450573 /* Deha_RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Deha_RadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361EA42222686FF600450573 /* Deha_RadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deha_RadioTests.swift; sourceTree = "<group>"; };
+		361EA42422686FF600450573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361EA42922686FF600450573 /* Deha_RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Deha_RadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361EA42D22686FF600450573 /* Deha_RadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deha_RadioUITests.swift; sourceTree = "<group>"; };
+		361EA42F22686FF600450573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361EA40422686FF400450573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361EA41B22686FF600450573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361EA42622686FF600450573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361EA3FE22686FF400450573 = {
+			isa = PBXGroup;
+			children = (
+				361EA40922686FF400450573 /* Deha_Radio */,
+				361EA42122686FF600450573 /* Deha_RadioTests */,
+				361EA42C22686FF600450573 /* Deha_RadioUITests */,
+				361EA40822686FF400450573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		361EA40822686FF400450573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361EA40722686FF400450573 /* Deha_Radio.app */,
+				361EA41E22686FF600450573 /* Deha_RadioTests.xctest */,
+				361EA42922686FF600450573 /* Deha_RadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361EA40922686FF400450573 /* Deha_Radio */ = {
+			isa = PBXGroup;
+			children = (
+				361EA40A22686FF400450573 /* AppDelegate.swift */,
+				361EA40C22686FF400450573 /* ViewController.swift */,
+				361EA40E22686FF400450573 /* Main.storyboard */,
+				361EA41422686FF600450573 /* Assets.xcassets */,
+				361EA41622686FF600450573 /* LaunchScreen.storyboard */,
+				361EA41922686FF600450573 /* Info.plist */,
+				361EA41122686FF400450573 /* Deha_Radio.xcdatamodeld */,
+			);
+			path = Deha_Radio;
+			sourceTree = "<group>";
+		};
+		361EA42122686FF600450573 /* Deha_RadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				361EA42222686FF600450573 /* Deha_RadioTests.swift */,
+				361EA42422686FF600450573 /* Info.plist */,
+			);
+			path = Deha_RadioTests;
+			sourceTree = "<group>";
+		};
+		361EA42C22686FF600450573 /* Deha_RadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				361EA42D22686FF600450573 /* Deha_RadioUITests.swift */,
+				361EA42F22686FF600450573 /* Info.plist */,
+			);
+			path = Deha_RadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361EA40622686FF400450573 /* Deha_Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361EA43222686FF600450573 /* Build configuration list for PBXNativeTarget "Deha_Radio" */;
+			buildPhases = (
+				361EA40322686FF400450573 /* Sources */,
+				361EA40422686FF400450573 /* Frameworks */,
+				361EA40522686FF400450573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deha_Radio;
+			productName = Deha_Radio;
+			productReference = 361EA40722686FF400450573 /* Deha_Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		361EA41D22686FF600450573 /* Deha_RadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361EA43522686FF600450573 /* Build configuration list for PBXNativeTarget "Deha_RadioTests" */;
+			buildPhases = (
+				361EA41A22686FF600450573 /* Sources */,
+				361EA41B22686FF600450573 /* Frameworks */,
+				361EA41C22686FF600450573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361EA42022686FF600450573 /* PBXTargetDependency */,
+			);
+			name = Deha_RadioTests;
+			productName = Deha_RadioTests;
+			productReference = 361EA41E22686FF600450573 /* Deha_RadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		361EA42822686FF600450573 /* Deha_RadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361EA43822686FF600450573 /* Build configuration list for PBXNativeTarget "Deha_RadioUITests" */;
+			buildPhases = (
+				361EA42522686FF600450573 /* Sources */,
+				361EA42622686FF600450573 /* Frameworks */,
+				361EA42722686FF600450573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361EA42B22686FF600450573 /* PBXTargetDependency */,
+			);
+			name = Deha_RadioUITests;
+			productName = Deha_RadioUITests;
+			productReference = 361EA42922686FF600450573 /* Deha_RadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361EA3FF22686FF400450573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = BuiTheHiep;
+				TargetAttributes = {
+					361EA40622686FF400450573 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					361EA41D22686FF600450573 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 361EA40622686FF400450573;
+					};
+					361EA42822686FF600450573 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 361EA40622686FF400450573;
+					};
+				};
+			};
+			buildConfigurationList = 361EA40222686FF400450573 /* Build configuration list for PBXProject "Deha_Radio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361EA3FE22686FF400450573;
+			productRefGroup = 361EA40822686FF400450573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361EA40622686FF400450573 /* Deha_Radio */,
+				361EA41D22686FF600450573 /* Deha_RadioTests */,
+				361EA42822686FF600450573 /* Deha_RadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361EA40522686FF400450573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361EA41822686FF600450573 /* LaunchScreen.storyboard in Resources */,
+				361EA41522686FF600450573 /* Assets.xcassets in Resources */,
+				361EA41022686FF400450573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361EA41C22686FF600450573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361EA42722686FF600450573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361EA40322686FF400450573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361EA40D22686FF400450573 /* ViewController.swift in Sources */,
+				361EA40B22686FF400450573 /* AppDelegate.swift in Sources */,
+				361EA41322686FF400450573 /* Deha_Radio.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361EA41A22686FF600450573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361EA42322686FF600450573 /* Deha_RadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361EA42522686FF600450573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361EA42E22686FF600450573 /* Deha_RadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		361EA42022686FF600450573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361EA40622686FF400450573 /* Deha_Radio */;
+			targetProxy = 361EA41F22686FF600450573 /* PBXContainerItemProxy */;
+		};
+		361EA42B22686FF600450573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361EA40622686FF400450573 /* Deha_Radio */;
+			targetProxy = 361EA42A22686FF600450573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		361EA40E22686FF400450573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361EA40F22686FF400450573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		361EA41622686FF600450573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361EA41722686FF600450573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		361EA43022686FF600450573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		361EA43122686FF600450573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		361EA43322686FF600450573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Deha_Radio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BuiTheHiep.Deha-Radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		361EA43422686FF600450573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Deha_Radio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BuiTheHiep.Deha-Radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		361EA43622686FF600450573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Deha_RadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BuiTheHiep.Deha-RadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deha_Radio.app/Deha_Radio";
+			};
+			name = Debug;
+		};
+		361EA43722686FF600450573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Deha_RadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BuiTheHiep.Deha-RadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deha_Radio.app/Deha_Radio";
+			};
+			name = Release;
+		};
+		361EA43922686FF600450573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Deha_RadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BuiTheHiep.Deha-RadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Deha_Radio;
+			};
+			name = Debug;
+		};
+		361EA43A22686FF600450573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Deha_RadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BuiTheHiep.Deha-RadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Deha_Radio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361EA40222686FF400450573 /* Build configuration list for PBXProject "Deha_Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361EA43022686FF600450573 /* Debug */,
+				361EA43122686FF600450573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361EA43222686FF600450573 /* Build configuration list for PBXNativeTarget "Deha_Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361EA43322686FF600450573 /* Debug */,
+				361EA43422686FF600450573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361EA43522686FF600450573 /* Build configuration list for PBXNativeTarget "Deha_RadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361EA43622686FF600450573 /* Debug */,
+				361EA43722686FF600450573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361EA43822686FF600450573 /* Build configuration list for PBXNativeTarget "Deha_RadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361EA43922686FF600450573 /* Debug */,
+				361EA43A22686FF600450573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		361EA41122686FF400450573 /* Deha_Radio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				361EA41222686FF400450573 /* Deha_Radio.xcdatamodel */,
+			);
+			currentVersion = 361EA41222686FF400450573 /* Deha_Radio.xcdatamodel */;
+			path = Deha_Radio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 361EA3FF22686FF400450573 /* Project object */;
+}
