@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>538782102899-qq5b14f1ipadi9585cban49bsiap0ife.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.538782102899-qq5b14f1ipadi9585cban49bsiap0ife</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC9dsxox8itCP-n8hV9neSLyo2xmhsPrEc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>538782102899</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>BuiTheHiep.Deha-Radio</string>
+	<key>PROJECT_ID</key>
+	<string>videoplayer-11367</string>
+	<key>STORAGE_BUCKET</key>
+	<string>videoplayer-11367.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:538782102899:ios:f6588781e89cdd9e</string>
+	<key>DATABASE_URL</key>
+	<string>https://videoplayer-11367.firebaseio.com</string>
+</dict>
+</plist>

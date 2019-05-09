@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Deha_Radio/AppDelegate.swift"
+            timestampString = "579068159.440991"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Deha_Radio.AppDelegate.__allocating_init() -&gt; Deha_Radio.AppDelegate"
+                  moduleName = "Deha_Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/buithehiep/Desktop/Deha_Radio/Deha_Radio/AppDelegate.swift"
+                  timestampString = "578646406.424309"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Deha_Radio.AppDelegate.init() -&gt; Deha_Radio.AppDelegate"
+                  moduleName = "Deha_Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/buithehiep/Desktop/Deha_Radio/Deha_Radio/AppDelegate.swift"
+                  timestampString = "578646406.426415"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Deha_Radio.AppDelegate.__deallocating_deinit"
+                  moduleName = "Deha_Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/buithehiep/Desktop/Deha_Radio/Deha_Radio/AppDelegate.swift"
+                  timestampString = "578646406.428085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Deha_Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/buithehiep/Desktop/Deha_Radio/Deha_Radio/AppDelegate.swift"
+                  timestampString = "578646406.4302"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Deha_Radio/VC/ListSong_ViewController.swift"
+            timestampString = "579081927.86611"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in Deha_Radio.ListSong_ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Deha_Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/buithehiep/Desktop/Deha_Radio/Deha_Radio/VC/ListSong_ViewController.swift"
+                  timestampString = "579063417.659294"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "977">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in Deha_Radio.ListSong_ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Deha_Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/buithehiep/Desktop/Deha_Radio/Deha_Radio/VC/ListSong_ViewController.swift"
+                  timestampString = "579063417.661345"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "3198">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Deha_Radio/VC/ListSong_ViewController.swift"
+            timestampString = "579081927.867974"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Deha_Radio/VC/ListSong_ViewController.swift"
+            timestampString = "579081927.868718"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

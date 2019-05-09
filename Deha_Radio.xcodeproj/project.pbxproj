@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		361EA40B22686FF400450573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361EA40A22686FF400450573 /* AppDelegate.swift */; };
-		361EA40D22686FF400450573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361EA40C22686FF400450573 /* ViewController.swift */; };
 		361EA41022686FF400450573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361EA40E22686FF400450573 /* Main.storyboard */; };
 		361EA41322686FF400450573 /* Deha_Radio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 361EA41122686FF400450573 /* Deha_Radio.xcdatamodeld */; };
 		361EA41522686FF600450573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361EA41422686FF600450573 /* Assets.xcassets */; };
 		361EA41822686FF600450573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361EA41622686FF600450573 /* LaunchScreen.storyboard */; };
 		361EA42322686FF600450573 /* Deha_RadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361EA42222686FF600450573 /* Deha_RadioTests.swift */; };
 		361EA42E22686FF600450573 /* Deha_RadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361EA42D22686FF600450573 /* Deha_RadioUITests.swift */; };
+		36915F45227005D800B0DD18 /* Login_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36915F44227005D800B0DD18 /* Login_ViewController.swift */; };
+		3698079C2271B8BF000A8DA9 /* ItemSong_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698079B2271B8BF000A8DA9 /* ItemSong_TableViewCell.swift */; };
+		3698079E2272E949000A8DA9 /* AddSong_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698079D2272E949000A8DA9 /* AddSong_ViewController.swift */; };
+		369836132269D4F0007A4499 /* DangKy_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369836122269D4F0007A4499 /* DangKy_ViewController.swift */; };
+		36E8C016227BDE7000A17786 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E8C014227BDE7000A17786 /* Alamofire.framework */; };
+		36E8C017227BDE7000A17786 /* Alamofire.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 36E8C015227BDE7000A17786 /* Alamofire.framework.dSYM */; };
+		36E8C01D227D3BC500A17786 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36E8C01C227D3BC500A17786 /* GoogleService-Info.plist */; };
+		36E8C022227D950E00A17786 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E8C021227D950E00A17786 /* Video.swift */; };
+		36E8C028227FD1D200A17786 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E8C014227BDE7000A17786 /* Alamofire.framework */; };
+		36E8C029227FD1D200A17786 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36E8C014227BDE7000A17786 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36E8C02C22828E4000A17786 /* Played_Video_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E8C02B22828E4000A17786 /* Played_Video_ViewController.swift */; };
+		36FAA2AF226EA9670040A5CB /* ListSong_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FAA2AE226EA9670040A5CB /* ListSong_ViewController.swift */; };
+		9AA466A6FB6FD5F1EA74D16F /* Pods_Deha_Radio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7F9E12B3108747E260A3A4 /* Pods_Deha_Radio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +46,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		36E8C02A227FD1D200A17786 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36E8C029227FD1D200A17786 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		361EA40722686FF400450573 /* Deha_Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deha_Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		361EA40A22686FF400450573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		361EA40C22686FF400450573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		361EA40F22686FF400450573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		361EA41222686FF400450573 /* Deha_Radio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Deha_Radio.xcdatamodel; sourceTree = "<group>"; };
 		361EA41422686FF600450573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +74,19 @@
 		361EA42922686FF600450573 /* Deha_RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Deha_RadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		361EA42D22686FF600450573 /* Deha_RadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deha_RadioUITests.swift; sourceTree = "<group>"; };
 		361EA42F22686FF600450573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36915F44227005D800B0DD18 /* Login_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_ViewController.swift; sourceTree = "<group>"; };
+		3698079B2271B8BF000A8DA9 /* ItemSong_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSong_TableViewCell.swift; sourceTree = "<group>"; };
+		3698079D2272E949000A8DA9 /* AddSong_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSong_ViewController.swift; sourceTree = "<group>"; };
+		369836122269D4F0007A4499 /* DangKy_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangKy_ViewController.swift; sourceTree = "<group>"; };
+		36E8C014227BDE7000A17786 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Deha_Radio/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		36E8C015227BDE7000A17786 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Deha_Radio/Alamofire.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		36E8C01C227D3BC500A17786 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36E8C021227D950E00A17786 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		36E8C02B22828E4000A17786 /* Played_Video_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Played_Video_ViewController.swift; sourceTree = "<group>"; };
+		36FAA2AE226EA9670040A5CB /* ListSong_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSong_ViewController.swift; sourceTree = "<group>"; };
+		5C7F9E12B3108747E260A3A4 /* Pods_Deha_Radio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deha_Radio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66D5A546101AB2354590390 /* Pods-Deha_Radio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deha_Radio.release.xcconfig"; path = "Target Support Files/Pods-Deha_Radio/Pods-Deha_Radio.release.xcconfig"; sourceTree = "<group>"; };
+		CBFDB8361E29C7DC8400A39A /* Pods-Deha_Radio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deha_Radio.debug.xcconfig"; path = "Target Support Files/Pods-Deha_Radio/Pods-Deha_Radio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E8C016227BDE7000A17786 /* Alamofire.framework in Frameworks */,
+				36E8C028227FD1D200A17786 /* Alamofire.framework in Frameworks */,
+				9AA466A6FB6FD5F1EA74D16F /* Pods_Deha_Radio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +117,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F80124725373D2B3BB66FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C7F9E12B3108747E260A3A4 /* Pods_Deha_Radio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		361EA3FE22686FF400450573 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				361EA42122686FF600450573 /* Deha_RadioTests */,
 				361EA42C22686FF600450573 /* Deha_RadioUITests */,
 				361EA40822686FF400450573 /* Products */,
+				B2367BAFFC81A574FB647E32 /* Pods */,
+				1F80124725373D2B3BB66FB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +150,17 @@
 		361EA40922686FF400450573 /* Deha_Radio */ = {
 			isa = PBXGroup;
 			children = (
+				361EA43C2268706900450573 /* VC */,
+				36E8C01B227D3AAC00A17786 /* View */,
+				36E8C020227D94C700A17786 /* Model */,
+				36E8C014227BDE7000A17786 /* Alamofire.framework */,
+				36E8C015227BDE7000A17786 /* Alamofire.framework.dSYM */,
 				361EA40A22686FF400450573 /* AppDelegate.swift */,
-				361EA40C22686FF400450573 /* ViewController.swift */,
-				361EA40E22686FF400450573 /* Main.storyboard */,
 				361EA41422686FF600450573 /* Assets.xcassets */,
 				361EA41622686FF600450573 /* LaunchScreen.storyboard */,
 				361EA41922686FF600450573 /* Info.plist */,
 				361EA41122686FF400450573 /* Deha_Radio.xcdatamodeld */,
+				36E8C01C227D3BC500A17786 /* GoogleService-Info.plist */,
 			);
 			path = Deha_Radio;
 			sourceTree = "<group>";
@@ -128,6 +183,44 @@
 			path = Deha_RadioUITests;
 			sourceTree = "<group>";
 		};
+		361EA43C2268706900450573 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				369836122269D4F0007A4499 /* DangKy_ViewController.swift */,
+				36FAA2AE226EA9670040A5CB /* ListSong_ViewController.swift */,
+				36915F44227005D800B0DD18 /* Login_ViewController.swift */,
+				3698079B2271B8BF000A8DA9 /* ItemSong_TableViewCell.swift */,
+				3698079D2272E949000A8DA9 /* AddSong_ViewController.swift */,
+				36E8C02B22828E4000A17786 /* Played_Video_ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		36E8C01B227D3AAC00A17786 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				361EA40E22686FF400450573 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36E8C020227D94C700A17786 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36E8C021227D950E00A17786 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2367BAFFC81A574FB647E32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBFDB8361E29C7DC8400A39A /* Pods-Deha_Radio.debug.xcconfig */,
+				B66D5A546101AB2354590390 /* Pods-Deha_Radio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 361EA43222686FF600450573 /* Build configuration list for PBXNativeTarget "Deha_Radio" */;
 			buildPhases = (
+				CCFCBEC39711EDA46BBFFD44 /* [CP] Check Pods Manifest.lock */,
 				361EA40322686FF400450573 /* Sources */,
 				361EA40422686FF400450573 /* Frameworks */,
 				361EA40522686FF400450573 /* Resources */,
+				6539A2109E18AA6DBBDB0C5C /* [CP] Embed Pods Frameworks */,
+				36E8C02A227FD1D200A17786 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +330,9 @@
 			files = (
 				361EA41822686FF600450573 /* LaunchScreen.storyboard in Resources */,
 				361EA41522686FF600450573 /* Assets.xcassets in Resources */,
+				36E8C01D227D3BC500A17786 /* GoogleService-Info.plist in Resources */,
 				361EA41022686FF400450573 /* Main.storyboard in Resources */,
+				36E8C017227BDE7000A17786 /* Alamofire.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +352,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6539A2109E18AA6DBBDB0C5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deha_Radio/Pods-Deha_Radio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoutubePlayer_in_WKWebView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deha_Radio/Pods-Deha_Radio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFCBEC39711EDA46BBFFD44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deha_Radio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		361EA40322686FF400450573 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				361EA40D22686FF400450573 /* ViewController.swift in Sources */,
+				3698079E2272E949000A8DA9 /* AddSong_ViewController.swift in Sources */,
 				361EA40B22686FF400450573 /* AppDelegate.swift in Sources */,
+				36FAA2AF226EA9670040A5CB /* ListSong_ViewController.swift in Sources */,
+				36915F45227005D800B0DD18 /* Login_ViewController.swift in Sources */,
+				369836132269D4F0007A4499 /* DangKy_ViewController.swift in Sources */,
+				36E8C022227D950E00A17786 /* Video.swift in Sources */,
+				36E8C02C22828E4000A17786 /* Played_Video_ViewController.swift in Sources */,
 				361EA41322686FF400450573 /* Deha_Radio.xcdatamodeld in Sources */,
+				3698079C2271B8BF000A8DA9 /* ItemSong_TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,9 +591,16 @@
 		};
 		361EA43322686FF600450573 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBFDB8361E29C7DC8400A39A /* Pods-Deha_Radio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Deha_Radio/New\\ Group",
+					"$(PROJECT_DIR)/Deha_Radio",
+				);
 				INFOPLIST_FILE = Deha_Radio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,9 +615,16 @@
 		};
 		361EA43422686FF600450573 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66D5A546101AB2354590390 /* Pods-Deha_Radio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Deha_Radio/New\\ Group",
+					"$(PROJECT_DIR)/Deha_Radio",
+				);
 				INFOPLIST_FILE = Deha_Radio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
