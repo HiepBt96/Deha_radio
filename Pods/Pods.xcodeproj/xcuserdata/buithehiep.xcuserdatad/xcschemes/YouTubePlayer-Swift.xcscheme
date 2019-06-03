@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0F4CCB14482A335D37E0AA926FFA4E4C"
-               BuildableName = "Pods_Deha_Radio.framework"
-               BlueprintName = "Pods-Deha_Radio"
+               BlueprintIdentifier = "7CBF707B4216CA468B3290049DA7B277"
+               BuildableName = "YouTubePlayer_Swift.framework"
+               BlueprintName = "YouTubePlayer-Swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0F4CCB14482A335D37E0AA926FFA4E4C"
-            BuildableName = "Pods_Deha_Radio.framework"
-            BlueprintName = "Pods-Deha_Radio"
+            BlueprintIdentifier = "7CBF707B4216CA468B3290049DA7B277"
+            BuildableName = "YouTubePlayer_Swift.framework"
+            BlueprintName = "YouTubePlayer-Swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

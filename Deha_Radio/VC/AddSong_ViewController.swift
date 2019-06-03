@@ -66,10 +66,14 @@ class AddSong_ViewController: UIViewController, UITextViewDelegate {
                     {
                         
                         let videoTitle = (item as AnyObject).value(forKeyPath: "snippet.title") as! String
-                        let videothumbnails = (item as AnyObject).value(forKeyPath: "snippet.thumbnails.default.url") as! String
+                        let videothumbnails = (item as AnyObject).value(forKeyPath: "snippet.thumbnails.standard.url") as! String
                         let videoId = (item as AnyObject).value(forKeyPath: "id") as! String
                         let masage = self.txtMessage.text!
-                        self.ref.child("video").childByAutoId().setValue(["videoTitle":videoTitle,"videoID":videoId,"videothumbnails": videothumbnails,"masage": masage])
+                        var Timestamp: TimeInterval {
+                            return NSDate().timeIntervalSince1970 * 1000
+                        }
+                       
+                        self.ref.child("video").childByAutoId().setValue(["videoTitle":videoTitle,"videoID":videoId,"videothumbnails": videothumbnails,"masage": masage,"Timestamp":Timestamp])
                         
                     }
                     self.navigationController?.popViewController(animated: true) // back to list song

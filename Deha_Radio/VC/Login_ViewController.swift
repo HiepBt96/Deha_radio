@@ -43,7 +43,7 @@ class Login_ViewController: UIViewController {
                 }
             }
         }
-    
+        print("dang nhap")
     }
     
     @IBAction func btnRegister(_ sender: Any) {

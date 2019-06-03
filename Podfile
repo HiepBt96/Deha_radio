@@ -5,4 +5,5 @@ target 'Deha_Radio' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod "YoutubePlayer-in-WKWebView", "~> 0.3.0"
+  pod 'YouTubePlayer-Swift', '~> 1.0'
 end

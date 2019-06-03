@@ -10,17 +10,18 @@ import UIKit
 
 class Video: NSObject {
 
-    var key:String
-    var videoTitle:String
-    var videothumbnails:String
-    var videoID:String
-    var Massage:String
-    
+    var key:String?
+    var videoTitle:String?
+    var videothumbnails:String?
+    var videoID:String?
+    var Massage:String?
+    var Timestamp:String?
     init(dictionary:[String:Any], key:String){
         self.key = key
-        self.videoTitle = dictionary["videoTitle"] as! String
-        self.videothumbnails = dictionary["videothumbnails"] as! String
-        self.Massage = dictionary["masage"] as! String
-        self.videoID = dictionary["videoID"] as! String
+        self.videoTitle = dictionary["videoTitle"] as? String
+        self.videothumbnails = dictionary["videothumbnails"] as? String
+        self.Massage = dictionary["masage"] as? String
+        self.videoID = dictionary["videoID"] as? String
+        self.Timestamp = dictionary["Timestamp"] as? String
     }
 }

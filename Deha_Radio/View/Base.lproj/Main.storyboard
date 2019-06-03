@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4At-TL-s7t">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -204,29 +204,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vs3-dY-qOe" customClass="WKYTPlayerView">
-                                <rect key="frame" x="0.0" y="20" width="320" height="220"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1O-He-BLF">
+                                        <rect key="frame" x="40" y="100" width="240" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="220" id="Q1Y-nE-Ske"/>
+                                    <constraint firstItem="g1O-He-BLF" firstAttribute="centerX" secondItem="vs3-dY-qOe" secondAttribute="centerX" id="48p-Kz-KR4"/>
+                                    <constraint firstItem="g1O-He-BLF" firstAttribute="top" secondItem="vs3-dY-qOe" secondAttribute="top" constant="100" id="PHi-Cg-erp"/>
+                                    <constraint firstItem="g1O-He-BLF" firstAttribute="leading" secondItem="vs3-dY-qOe" secondAttribute="leading" constant="40" id="vuH-Dm-77j"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="vs3-dY-qOe" firstAttribute="trailing" secondItem="jba-pw-h65" secondAttribute="trailing" id="4S8-6j-7Ea"/>
-                            <constraint firstItem="vs3-dY-qOe" firstAttribute="leading" secondItem="jba-pw-h65" secondAttribute="leading" id="dbb-kO-x4V"/>
-                            <constraint firstItem="vs3-dY-qOe" firstAttribute="top" secondItem="jba-pw-h65" secondAttribute="top" id="xJY-FS-b1S"/>
+                            <constraint firstItem="vs3-dY-qOe" firstAttribute="trailing" secondItem="jba-pw-h65" secondAttribute="trailing" id="89G-mt-9cn"/>
+                            <constraint firstItem="vs3-dY-qOe" firstAttribute="top" secondItem="jba-pw-h65" secondAttribute="top" id="CCq-F4-Lpe"/>
+                            <constraint firstItem="vs3-dY-qOe" firstAttribute="centerY" secondItem="jba-pw-h65" secondAttribute="centerY" id="CZ9-cN-2ah"/>
+                            <constraint firstItem="jba-pw-h65" firstAttribute="bottom" secondItem="vs3-dY-qOe" secondAttribute="bottom" id="OPT-eu-lke"/>
+                            <constraint firstItem="vs3-dY-qOe" firstAttribute="centerX" secondItem="jba-pw-h65" secondAttribute="centerX" id="Szr-pv-fLi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jba-pw-h65"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Đang phát" image="playing_active" id="tkq-GI-dKF"/>
                     <connections>
-                        <outlet property="playerView" destination="vs3-dY-qOe" id="eZ9-zW-YNS"/>
+                        <outlet property="playerView" destination="vs3-dY-qOe" id="SDY-cx-ZTE"/>
+                        <outlet property="txtMessage" destination="g1O-He-BLF" id="Rhh-hl-KG1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="chH-xj-kMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3783.75" y="-402.46478873239437"/>
+            <point key="canvasLocation" x="4072.5" y="-458.45070422535213"/>
         </scene>
         <!--List Song View Controller-->
         <scene sceneID="LSz-Q2-YGc">
@@ -238,7 +251,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="wGy-rs-Me4">
                                 <rect key="frame" x="0.0" y="116" width="320" height="403"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="P4d-af-dx6" customClass="ItemSong_TableViewCell" customModule="Deha_Radio" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.5" width="320" height="100"/>
@@ -247,7 +260,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deha" translatesAutoresizingMaskIntoConstraints="NO" id="o4x-ol-cae">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deha" translatesAutoresizingMaskIntoConstraints="NO" id="o4x-ol-cae">
                                                     <rect key="frame" x="15" y="10" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="80" id="NH0-wz-6KT"/>
@@ -266,8 +279,9 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compact-disk" translatesAutoresizingMaskIntoConstraints="NO" id="lEj-Qj-MQT">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lEj-Qj-MQT">
                                                     <rect key="frame" x="275" y="35" width="30" height="30"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="30" id="cUp-oS-dhm"/>
                                                         <constraint firstAttribute="height" constant="30" id="x4a-8L-BMH"/>
@@ -327,7 +341,7 @@
                                 </constraints>
                                 <state key="normal" image="add"/>
                                 <connections>
-                                    <segue destination="p8T-Bs-fIG" kind="show" id="8as-w7-Wvd"/>
+                                    <segue destination="p8T-Bs-fIG" kind="show" identifier="addSong" id="8as-w7-Wvd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -352,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rcq-uh-c1R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4318.125" y="-1340.4929577464789"/>
+            <point key="canvasLocation" x="4688" y="-1309"/>
         </scene>
         <!--Add Song View Controller-->
         <scene sceneID="cja-XH-8rH">
@@ -426,7 +440,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vb-bL-pfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5353" y="-1340"/>
+            <point key="canvasLocation" x="5614" y="-1309"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="HxZ-AC-KFp">
@@ -445,7 +459,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tob-Wu-YH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2870" y="-842"/>
+            <point key="canvasLocation" x="2713" y="-734"/>
         </scene>
         <!--Dang Ky View Controller-->
         <scene sceneID="F6C-Wc-dM7">
@@ -645,7 +659,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="18p-dB-ozr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1768" y="-231"/>
+            <point key="canvasLocation" x="1170" y="-106"/>
         </scene>
         <!--Danh sách -->
         <scene sceneID="v9E-P1-E9G">
@@ -664,12 +678,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hp9-Vn-8ni" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3600.8000000000002" y="-1218.440779610195"/>
+            <point key="canvasLocation" x="3737" y="-1308"/>
         </scene>
     </scenes>
     <resources>
         <image name="add" width="23.5" height="23.5"/>
-        <image name="compact-disk" width="27.5" height="27.5"/>
         <image name="deha" width="960" height="960"/>
         <image name="list_inactive" width="31.5" height="24"/>
         <image name="playing_active" width="26" height="26"/>

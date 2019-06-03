@@ -13,8 +13,10 @@ import Alamofire
 
 class ListSong_ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var ref: DatabaseReference!
-    var databasehandle: DatabaseHandle!
+    //var databasehandle: DatabaseHandle!
     var listVideo: [Video] = [Video]()
+    var selectedVideo: Video?
+    //var listAllVideo: [Video] = [Video]()
     @IBOutlet weak var tblLitSong: UITableView!
     @IBOutlet weak var lblVideoname: UILabel!
     @IBOutlet weak var lblMessage: UILabel!
@@ -34,13 +36,15 @@ class ListSong_ViewController: UIViewController, UITableViewDelegate, UITableVie
         self.view.backgroundColor = UIColor(patternImage:UIImage(named: "background.png")!)
         
         // Read data from Firebase
-        databasehandle = ref.observe(.value, with: { (snapshot) in
+         self.ref.child("video").queryOrdered(byChild: "Timestamp").observe(.value, with: { (snapshot) in
             if !snapshot.exists() { return }
             let videos = snapshot.value as! [String:Any]?
-            let video = videos?["video"] as! [String:Any]?
+            //let video = videos?["video"] as! [String:Any]?
             var list = [Video]()
-            for key in Array((video?.keys)!){
-                list.append(Video(dictionary: video![key] as! [String:AnyObject], key: key))
+            if let keys = videos?.keys {
+                for key in Array(keys){
+                    list.append(Video(dictionary: videos![key] as! [String:AnyObject], key: key))
+                }
             }
             self.listVideo = list
             self.tblLitSong.reloadData()
@@ -69,66 +73,24 @@ class ListSong_ViewController: UIViewController, UITableViewDelegate, UITableVie
         cell.imgSong.layer.masksToBounds = true
         cell.txtSongname.text = eachVideo.videoTitle
         cell.txtDescrible.text = eachVideo.Massage
-        let catPictureURL = URL(string: eachVideo.videothumbnails)
-        Alamofire.request(catPictureURL!).response { (response) in
-            if let response = response.data {
-                cell.imgSong.image = UIImage(data: response)
+        guard let videoThumbnails = eachVideo.videothumbnails else { return cell }
+        if let catPictureURL = URL(string: videoThumbnails)
+        {
+            Alamofire.request(catPictureURL).response { (response) in
+                if let response = response.data {
+                    cell.imgSong.image = UIImage(data: response)
+                }
             }
         }
-        
-      
-       
-        
-//        func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
-//            URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
-//        }
-//
-//        func downloadImage(from url: URL) {
-//            print("Download Started")
-//            getData(from: url) { data, response, error in
-//                guard let data = data, error == nil else { return }
-//                print(response?.suggestedFilename ?? url.lastPathComponent)
-//                print("Download Finished")
-//                DispatchQueue.main.async() {
-//                   // self.imageView.image = UIImage(data: data)
-//                    cell.imgSong.image = UIImage(data: data)
-//                }
-//            }
-//        }
-//        downloadImage(from: catPictureURL)
-        // Creating a session object with the default configuration.
-        // You can read more about it here https://developer.apple.com/reference/foundation/urlsessionconfiguration
-//        let session = URLSession(configuration: .default)
-//
-//        // Define a download task. The download task will download the contents of the URL as a Data object and then you can do what you wish with that data.
-//        let downloadPicTask = session.dataTask(with: catPictureURL) { (data, response, error) in
-//            // The download has finished.
-//            if let e = error {
-//                print("Error downloading cat picture: \(e)")
-//            } else {
-//                // No errors found.
-//                // It would be weird if we didn't have a response, so check for that too.
-//                if let res = response as? HTTPURLResponse {
-//                    print("Downloaded cat picture with response code \(res.statusCode)")
-//                    if let imageData = data {
-//                        // Finally convert that Data into an image and do what you wish with it.
-//                        cell.imgSong.image = UIImage(data: imageData)
-//                        //let image = UIImage(data: imageData)
-//                        // Do something with your image.
-//                    } else {
-//                        print("Couldn't get image: Image is nil")
-//                    }
-//                } else {
-//                    print("Couldn't get response code for some reason")
-//                }
-//            }
-//        }
-//
-//        downloadPicTask.resume()
-        
         return cell
-        
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedVideo = listVideo[indexPath.row]
+        //listAllVideo = listVideo
+        self.tabBarController!.selectedIndex = 1
+        let playViewController = self.tabBarController?.viewControllers![1] as! Played_Video_ViewController
+        playViewController.selectedVideo = self.selectedVideo
+       // playViewController.listAllVideo = self.listAllVideo
+    }
 }

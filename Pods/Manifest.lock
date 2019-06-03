@@ -59,11 +59,13 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - YoutubePlayer-in-WKWebView (0.3.0)
+  - YouTubePlayer-Swift (1.0)
 
 DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - YoutubePlayer-in-WKWebView (~> 0.3.0)
+  - YouTubePlayer-Swift (~> 1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -78,6 +80,7 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - YoutubePlayer-in-WKWebView
+    - YouTubePlayer-Swift
 
 SPEC CHECKSUMS:
   Firebase: fa80b9d987ca014a1ba9357496ef2a0178b28b12
@@ -91,7 +94,8 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   YoutubePlayer-in-WKWebView: 17a33b2fa619d357c9ddd763942ce556660facae
+  YouTubePlayer-Swift: ae82f4bcb504162a872b852596a9dc1fa3828c34
 
-PODFILE CHECKSUM: 191f7ad24d8b5e2de8dc0eda3db2488f5d9337b5
+PODFILE CHECKSUM: 276be3cf7a73fae5aa582182dfe508797df59128
 
 COCOAPODS: 1.6.1

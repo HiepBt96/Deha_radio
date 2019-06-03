@@ -10,23 +10,25 @@ import UIKit
 import YoutubePlayer_in_WKWebView
 
 class Played_Video_ViewController: UIViewController {
-
+    //var listAllVideo : [Video] = [Video]()
+    var selectedVideo : Video?
+    var idVideoSlected:String?
     @IBOutlet weak var playerView: WKYTPlayerView!
+    @IBOutlet weak var txtMessage: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        playerView.load(withVideoId: "ph2ISJx-gYs")
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
+        
+        //playerView.load(withVideoId: "ph2ISJx-gYs")
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        if let vid = self.selectedVideo{
+            idVideoSlected = vid.videoID
+            playerView.load(withVideoId: idVideoSlected!, playerVars: ["playsinline" : 1])
+        }else{
+            txtMessage.text = "Không có video được chọn"
+            txtMessage.textColor = UIColor.red
+        }
+        
     }
-    */
-
 }
